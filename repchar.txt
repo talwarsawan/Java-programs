@@ -1,0 +1,24 @@
+import java.util.*;
+
+class rep{
+
+public static void main(String acr[]){
+Scanner s= new Scanner(System.in);
+
+int[] arr= new int[20];
+
+String a= s.nextLine();
+
+for(int i=0;i<a.length();i++){
+for(int j=97;j<122;j++){
+if(Integer.parseInt(a.charAt(i))==j){
+a[i]++;
+}
+}
+}
+
+for(i=0;i<a.length();i++){
+System.out.println(i+" "+a[i]);
+}
+}
+}
